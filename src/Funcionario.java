@@ -3,7 +3,9 @@ public class Funcionario {
 	
 	private String nome;
 	private String cpf;
-	private double salario;
+	
+	//Protected está entre public e private ou seja publico para os filhos
+	protected double salario;
 	
 	/* Criando construtor
 	 * 
