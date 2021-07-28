@@ -5,7 +5,7 @@ public class Funcionario {
 	private String cpf;
 	
 	//Protected está entre public e private ou seja publico para os filhos
-	protected double salario;
+	private double salario;
 	
 	/* Criando construtor
 	 * 
@@ -17,7 +17,7 @@ public class Funcionario {
 	 */
 	
 	public double getBonificacao() {
-		return this.salario * 0.1;
+		return this.salario * 0.05;
 	}
 	
 	public String getNome() {
