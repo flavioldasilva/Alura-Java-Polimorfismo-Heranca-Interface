@@ -1,5 +1,6 @@
+// nao pode instanciar dessa classe pq é abstrata!
 
-public class Funcionario {
+public abstract class Funcionario {
 	
 	private String nome;
 	private String cpf;
@@ -16,9 +17,8 @@ public class Funcionario {
 	 * caso você não crie um construtor, or default o java cria ele para você.
 	 */
 	
-	public double getBonificacao() {
-		return this.salario * 0.05;
-	}
+	//abstract em método = método sem corpo, não há implementação aqui apenas nas classes filhos.
+	public abstract double getBonificacao();
 	
 	public String getNome() {
 		return nome;
