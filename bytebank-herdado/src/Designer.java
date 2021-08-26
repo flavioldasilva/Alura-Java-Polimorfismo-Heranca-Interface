@@ -1,4 +1,5 @@
 
+//Gerente é um Funcionario, Gerente herda das classe Funcionario
 public class Designer extends Funcionario {
 	
 	public double getBonificacao() {

@@ -1,4 +1,5 @@
 
+//Editor de Video é um Funcionário, herda da classe Funcionario
 public class EditorVideo extends Funcionario {
 	
 	public double getBonificacao() {

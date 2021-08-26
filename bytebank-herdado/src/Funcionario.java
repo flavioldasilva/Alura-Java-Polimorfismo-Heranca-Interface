@@ -1,5 +1,5 @@
-// nao pode instanciar dessa classe pq é abstrata!
 
+//Não pode instanciar dessa classe pois é abstrata!
 public abstract class Funcionario {
 	
 	private String nome;
