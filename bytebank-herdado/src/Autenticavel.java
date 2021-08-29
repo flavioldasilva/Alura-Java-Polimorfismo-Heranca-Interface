@@ -1,3 +1,6 @@
+/*Contrato Autenticavel
+Quem assina este contrato, precisa impementar:
+metodos getSenha e autentica*/
 
 public abstract interface Autenticavel {
 	
